@@ -13,7 +13,7 @@ A simple patch to AST_timeonVDADall.php is a "quirk and dirty" way of fixing the
 # Installation
 No installation is required. To run the patch, do the following on your web server(s);
 
-`bash <(wget -qO- http://192.168.8.155/dispo_fix.sh)`
+`bash <(wget -qO- https://raw.githubusercontent.com/TheBlode/ViCiDial-Dispo-on-Real-Time-Report-Patch/main/dispo_fix.sh)`
 
 # Known bugs
 None that I have found during testing. Patches on the patch welcome!
