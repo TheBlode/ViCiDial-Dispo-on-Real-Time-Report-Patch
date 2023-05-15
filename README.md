@@ -7,7 +7,7 @@ When the agent is marked as LAGGED whilst on an active call, the column `asteris
 # The Solution
 A simple patch to AST_timeonVDADall.php is a "quirk and dirty" way of fixing the issue. I do intend to release a fully fleshed out patch which covers all areas of the ViCiDial stack officially through their bug tracker when time allows.
 
-# Mobile Version
+# Screenshot
 <img src="https://i.imgur.com/YGRavav.png" width="500" height="850">
 
 # Installation
