@@ -10,6 +10,9 @@ A simple patch to AST_timeonVDADall.php is a "quirk and dirty" way of fixing the
 # Screenshot
 <img src="https://i.imgur.com/YGRavav.png" width="500" height="850">
 
+# Requirements
+This is working for ViCiDial SVN revision 3722.
+
 # Installation
 No installation is required. To run the patch, do the following on your web server(s);
 
