@@ -106,7 +106,7 @@ if [ ! -f "$line/AST_timeonVDADall.php.backup" ]; then
     echo ""
     echo "Applying patch..."
     echo ""
-    sed '3669s/.*/\t\t\tif ($Alead_id\[$i\] \> 0 \&\& empty($Acallerid[$i]))/' $line/AST_timeonVDADall.php.backup > $line/AST_timeonVDADall.php
+    cat $line/AST_timeonVDADall.php.backup | sed -e "s/if .\$Alead_id\[\$i\] . ../if (\$Alead_id\[\$i\] \> 0 \&\& empty(\$Acallerid[\$i]))/" > $line/AST_timeonVDADall.php
     echo "Patch successfully applied!"
     echo ""
     echo "Thanks for using this script."
